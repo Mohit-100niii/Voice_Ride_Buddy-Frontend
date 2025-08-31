@@ -36,7 +36,7 @@ export default function PaymentSuccess() {
 
         console.log(response.data.last_ride);
         setLastRide(response.data.last_ride);
-        console.log(last_ride_detail.pickup);
+        
       } catch (err) {
         console.log(err);
       }
